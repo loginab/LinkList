@@ -3,6 +3,8 @@ LinkList
 
 programs on Link-List
 
+function:-
+
 reverse(node *) : 
 -----------------
 reverse a given link list
