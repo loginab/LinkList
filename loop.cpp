@@ -54,11 +54,11 @@ void loop(node *pt)
 	while (pt->next !=NULL)
 	{
 
-		//if(dupli.count(pt)==0)
+
 			ret=dupli.insert(make_pair(pt,pt->key));
 		if(ret.second)
 		{
-			//cout<<"insert succeded";
+
 		}
 		else
 		{
@@ -88,7 +88,7 @@ int main()
 		if(i==10)
 			temp=pt;
 	}
-//	pt->next=temp;
+	pt->next=temp;
 	
 	loop(pt);
 
